@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/usuarios.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="/img/condusef-logo-header.png" />
+        <title>Alfresco</title>
+    </head>
+
+<body>
+
+  <header>
+
+    <div class="header-logo-container">
+        <img class="logo-header" src="/img/condusef-logo-header.png"
+            alt="">
+        <h2 class="header-title">Plataforma de Transformación Digital</h2>
+    </div>
+
+    <div class="session-header">
+        
+        <div class="time-session-container">
+            <p class="title-session-header">Tiempo de sesión: </p>
+            <p> 1 hrs 45 min 26 s</p>
+        </div>
+
+        <span>|</span>
+
+        <div class="session-options-header">
+            <h3 class="user-session-header">UAU METRO CENTRAL ALFRESCO</h3>
+            <h3 class="sessio-options-title">UM</h3>
+        </div>
+
+    </div>
+
+  </header>
+
+    
+
+    <div class="container">
+        <form action="/action_page.php">
+    
+    <div class="documents-title-container">
+        <h2>Crear Usuario</h2>
+    </div>
+        <div class="row-cuatro">
+            <div class="col-25">
+                <label for="area_p">First Name*</label>
+            </div>
+            <div class="col-75">
+              <input class="col-75-cuatro" type="text" id="f_name" name="firstname" placeholder="">
+            </div>
+        </div>
+
+        
+
+        <div class="row-cuatro">
+            
+            <div class="col-25">
+              <label for="tipo_m">Last Name*</label>
+            </div>
+
+            <div class="col-75">
+              <input class="col-75-cuatro" type="text" id="l_name" name="lastname" placeholder="">
+            </div>
+
+        </div>
+        
+
+        <div class="row-cuatro">
+           
+            <div class="col-25">
+                <label for="macrop">Password*</label>
+            </div>
+
+            <div class="col-75">
+                <input class="col-75-cuatro" type="password" id="password" name="password" placeholder="">
+            </div>
+
+        </div>
+
+        <div class="row-cuatro">
+           
+            <div class="col-25">
+                <label for="macrop">Repeat Password*</label>
+            </div>
+
+            <div class="col-75">
+                <input class="col-75-cuatro" type="password" id="r_password" name="rpassword" placeholder="">
+            </div>
+
+        </div>
+
+        <div class="row-cuatro">
+
+            <div class="col-25">
+                <label for="proceso">Username*</label>
+            </div>
+
+            <div class="col-75">
+                <input class="col-75-cuatro" type="text" id="u_name" name="username" placeholder="">
+            </div>
+        </div>
+
+        <div class="row-cuatro">
+            <div class="col-25">
+              <label for="proceso">Área*</label>
+            </div>
+            <div class="col-75">
+              <select class="col-75-cuatro" id="area" name="area">
+                <option value=""></option>
+                <option value="sustantivo">PROCESO DE ATENCIÓN A USUARIOS DE SERVICIOS FINANCIEROS</option>
+                <option value="comun">CONSEJOS CONSULTIVOS</option>
+              </select>
+            </div>
+          </div>
+        
+    
+<br><br>
+<br><br>
+
+<div class="clearfix">
+    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    <button type="submit" class="signupbtn">Sign Up</button>
+  </div>
+
+  <br><br>
+  <br><br>
+  
+
+<div class="documents-buttons-container">
+  <button class="btn-documents-cancelar">Cancelar</button>
+  <button class="btn-documents-aceptar" type="submit">Aceptar</button>
+</div>
+
+</form>
+
+
+</div>
+</body>
+</html>
